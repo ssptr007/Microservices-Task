@@ -70,11 +70,44 @@ Happy testing!
 ---
 Step 1: Dockerfile Creation
 
+- gateway-service/Dockerfile
+
 ```
 FROM node:22
 WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 3003
+CMD ["node","app.js"]
+```
+- order-service/Dockerfile
+
+```
+FROM node:22
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3002
+CMD ["node","app.js"]
+
+```
+- product-service/Dockerfile
+
+```
+FROM node:22
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3001
+CMD ["node","app.js"]
+```
+- user-service/Dockerfile
+
+```
+FROM node:22
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3000
 CMD ["node","app.js"]
 ```
