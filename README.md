@@ -68,7 +68,7 @@ This document provides details on testing various services after running the `do
 Happy testing!
 
 ---
-Step 1: Dockerfile Creation
+## Step 1: Dockerfile Creation
 
 - **gateway-service/Dockerfile**
 
@@ -112,7 +112,7 @@ EXPOSE 3000
 CMD ["node","app.js"]
 ```
 
-Step 2: Docker Compose Configuration
+## Step 2: Docker Compose Configuration
 **docker-compose.yml**
 
 ```
@@ -164,7 +164,7 @@ networks:
     driver: bridge
 ```
 
-Step 3: Local Testing & Validation
+## Step 3: Local Testing & Validation
 
 ![image](https://github.com/user-attachments/assets/9d046458-5130-4a36-800b-aa6dfdc80427)
 
