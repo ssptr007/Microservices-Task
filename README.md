@@ -68,3 +68,13 @@ This document provides details on testing various services after running the `do
 Happy testing!
 
 ---
+Step 1: Dockerfile Creation
+- gateway-service/Dockerfile
+  ```
+FROM node:22
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3003
+CMD ["node","app.js"]
+  ```
