@@ -168,11 +168,18 @@ Step 3: Local Testing & Validation
 
 ![image](https://github.com/user-attachments/assets/9d046458-5130-4a36-800b-aa6dfdc80427)
 
-![image](https://github.com/user-attachments/assets/73afb27b-e682-485e-a1fc-a71892d94fe2)
+**http://localhost:3003/api/users**
 
-![image](https://github.com/user-attachments/assets/abf6b748-803a-49c4-b7f3-6377eba305d4)
+![image](https://github.com/user-attachments/assets/248ca4e3-025a-451b-b025-1db50c3cd594)
 
-![image](https://github.com/user-attachments/assets/df6a8b16-34e3-4d72-a25f-d223e5373ce4)
+**http://localhost:3003/api/products**
+
+![image](https://github.com/user-attachments/assets/65a1e307-1e24-45f8-ad8e-5c50443eb6e3)
+
+**http://localhost:3003/api/orders**
+
+![image](https://github.com/user-attachments/assets/6bedcebd-f8aa-4851-80d2-cc6d9a241bea)
+
 
 
 
